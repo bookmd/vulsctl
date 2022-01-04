@@ -5,6 +5,8 @@ NC='\033[0m';
 
 ID=$(whoami);
 
+export HOME="/vuls";
+
 install_go() {
 	export GOROOT=/usr/local/go;
 	export GOPATH=$HOME/go;
