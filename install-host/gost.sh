@@ -5,6 +5,9 @@ if [ $# -eq 0 ]; then
 	exit 1
 fi
 
+export HOME="/vuls";
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin";
+
 target=$1
 shift
 
